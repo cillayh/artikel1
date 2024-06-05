@@ -15,10 +15,11 @@ body {
     float: left;
   }
   
-  .navbar-text {
-    font-size: 20px;
-    font-weight: bold;
-  }
+ .navbar-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px; /* Adjust vertical alignment */
+}
   
   .img {
     width: 100px;
@@ -102,6 +103,7 @@ body {
     padding: 20px 0;
     clear: both; /* Membersihkan float */
     text-align: center; /* Pusatkan teks */
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -116,3 +118,11 @@ body {
   .h1{
     text-align: center;
   }
+
+
+@media only screen and (max-width: 600px) {
+  .box, .box1, .box2, .box3, .box4 {
+    width: calc(100% - 40px); /* Adjust box width to full width on smaller screens */
+    margin: 20px 0; /* Adjust margin for better spacing */
+  }
+}
