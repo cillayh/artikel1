@@ -8,7 +8,7 @@ body {
     background-color: #AA3A3A;
     color: #f3efef;
     padding: 35px 20px;
-
+    align-items: center;
   }
   
   .navbar-left {
