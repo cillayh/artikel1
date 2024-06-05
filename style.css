@@ -1,128 +1,138 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #F8E4B7;
-  }
-  
-  .navbar {
-    background-color: #AA3A3A;
-    color: #f3efef;
-    padding: 35px 20px;
-    align-items: center;
-  }
-  
-  .navbar-left {
-    float: left;
-  }
-  
- .navbar-text {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8e4b7;
+}
+
+.navbar {
+  background-color: #aa3a3a;
+  color: #f3efef;
+  padding: 35px 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-left {
+  float: left;
+}
+
+.navbar-text {
   font-size: 20px;
   font-weight: bold;
   margin-top: 5px; /* Adjust vertical alignment */
+  align-items: center;
+  justify-content: center;
 }
-  
-  .img {
-    width: 100px;
-    height: 100px;
+
+.img {
+  width: 100px;
+  height: 100px;
 }
 
 .box {
-    width: calc(50% - 40px);
-    background-color: #b6c99b;
-    border-style: inherit;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: justify;
-    margin: 20px;
-    float: left;
-    box-sizing: border-box;
+  width: calc(50% - 40px);
+  background-color: #b6c99b;
+  border-style: inherit;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  margin: 20px;
+  float: left;
+  box-sizing: border-box;
 }
 
 .img img {
-    width: 200px; 
-    height: 100px; 
-    position: r absolute;
-    left: 10%;
+  width: 200px;
+  height: 100px;
+  position: r absolute;
+  left: 10%;
 }
 
+.box1 {
+  width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
+  background-color: #b6c99b;
+  border-style: inherit;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  margin: 20px;
+  float: left; /* Membuat box tersebut floating agar rata */
+  box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
+}
 
-  
-  .box1 {
-    width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
-    background-color: #b6c99b;
-    border-style: inherit;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: justify;
-    margin: 20px;
-    float: left; /* Membuat box tersebut floating agar rata */
-    box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
-  }
-  
-  .box2 {
-    width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
-    background-color:#b6c99b;
-    border-style: inherit;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: justify;
-    margin: 20px;
-    float: left; /* Membuat box tersebut floating agar rata */
-    box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
-    margin-top: -150px;
-  }
-  
-  .box3 {
-    width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
-    background-color: #b6c99b;
-    border-style: inherit;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: justify;
-    margin: 20px;
-    float: left; /* Membuat box tersebut floating agar rata */
-    box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
-  }
-  
-  .box4 {
-    width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
-    background-color: #b6c99b;
-    border-style: inherit;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: justify;
-    margin: 20px;
-    float: left; /* Membuat box tersebut floating agar rata */
-    box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
-    margin-top: -210px;
-  }
-  
-  .footer {
-    background-color: #520909;
-    color: #fff;
-    padding: 20px 0;
-    clear: both; /* Membersihkan float */
-    text-align: center; /* Pusatkan teks */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: justify;
-    
-  }
-  
-  .h1{
-    text-align: center;
-  }
+.box2 {
+  width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
+  background-color: #b6c99b;
+  border-style: inherit;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  margin: 20px;
+  float: left; /* Membuat box tersebut floating agar rata */
+  box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
+  margin-top: -150px;
+}
 
+.box3 {
+  width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
+  background-color: #b6c99b;
+  border-style: inherit;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  margin: 20px;
+  float: left; /* Membuat box tersebut floating agar rata */
+  box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
+}
+
+.box4 {
+  width: calc(50% - 40px); /* Mengatur lebar box menjadi setengah dari lebar layar dengan jarak 20px di antara keduanya */
+  background-color: #b6c99b;
+  border-style: inherit;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  margin: 20px;
+  float: left; /* Membuat box tersebut floating agar rata */
+  box-sizing: border-box; /* Menghitung lebar dengan termasuk border dan padding */
+  margin-top: -210px;
+}
+
+.footer {
+  background-color: #520909;
+  color: #fff;
+  padding: 20px 0;
+  clear: both; /* Membersihkan float */
+  text-align: center; /* Pusatkan teks */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.h1 {
+  text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
-  .box, .box1, .box2, .box3, .box4 {
+  .box,
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
     width: calc(100% - 40px); /* Adjust box width to full width on smaller screens */
     margin: 20px 0; /* Adjust margin for better spacing */
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
