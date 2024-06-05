@@ -102,6 +102,8 @@ body {
     padding: 20px 0;
     clear: both; /* Membersihkan float */
     text-align: center; /* Pusatkan teks */
+    align-items: center;
+    justify-content: center;
   }
   
   .container {
